@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS   accounts(
+    id INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE,
+    Username VARCHAR(15) UNIQUE,
+    Email Varchar(35) UNIQUE,
+    Password  VARCHAR(70) UNIQUE,
+    Salt INTEGER NOT NULL
+);
+
+
+--Its is the code use for create the data base
