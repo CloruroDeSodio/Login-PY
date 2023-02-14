@@ -1,4 +1,4 @@
-#User authentication system that allows the creation and login of user accounts.
+ # User authentication system that allows the creation and login of user accounts.
 
 This code uses Python to create an SQLite database and allow users to create accounts and then log in to them.
 
